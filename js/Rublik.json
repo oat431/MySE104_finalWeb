@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik3.jpg",
+        "Description":"This is the cube and when I knew they exist I mostly spend time on it when I don't know what to do but then it turn out that I usually take one cube with me when I go somewhere"
+    },
+    {
+        "id":"2",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik.jpg",
+        "Description":"The middle piece is missing and it is my personal favorite cube I keep it in my bedroom and I love the solve it"
+    },
+    {
+        "id":"3",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik2.jpg",
+        "Description":"My beloved collection"
+    },
+    {
+        "id":"4",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik4.jpg",
+        "Description":"it a cube but no color"
+    },
+    {
+        "id":"5",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik5.jpg",
+        "Description":"color above no color"
+    },
+    {
+        "id":"6",
+        "title":"Rublik's Cube",
+        "Pic":"../assets/Rublik/Rubik6.jpg",
+        "Description":"megaminx (the hardest one)"
+    },
+    {
+        "id":"7",
+        "title":"Rublik'cube",
+        "Pic":"../assets/image/cube.svg",
+        "Description":"Just a cube nahh"
+    }
+]

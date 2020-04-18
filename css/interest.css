@@ -1,0 +1,83 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: antiquewhite;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0,0,0,.4);
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+.otherPic{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.otherPic:hover .overlay{
+    opacity: 1;
+}
+
+@media only screen and (min-width:769px){
+    #topicnar{
+        display : none !important;
+    }
+    
+}
+
+@media only screen and (max-width:769px){
+    #topicwidth{
+        display: none !important;
+    }
+}
+
+div>p{
+    font-size: 1.5rem;
+}
+
+button{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 9rem;
+    height: 4rem;
+    border-radius: 26px !important;
+    font-size: 1.5rem !important;
+}
+
+div>img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#logo{
+    display: block;
+}
+
+.specialFrame{
+    padding: 12% 2rem ;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    background-color: wheat;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header div[class=container-fluid]{
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

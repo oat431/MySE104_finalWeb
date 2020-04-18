@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia.jpg",
+        "Description":"This is my personal favorite book of Dystopia Story The book talk about the future that society need all the people act the same how it end I suggest you need to read it"
+    },
+    {
+        "id":"2",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia4.jpg",
+        "Description":"This is also my personal favorite even I watch the movie before reading it but it still great dystopia story because The story talk about how the lowwest level of society fight the highest level of the society"
+    },
+    {
+        "id":"3",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia3.jpg",
+        "Description":"Story of a young man"
+    },
+    {
+        "id":"4",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia2.jpg",
+        "Description":"Story of a young woman"
+    },
+    {
+        "id":"5",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia6.jpg",
+        "Description":"Story of new generations"
+    },
+    {
+        "id":"6",
+        "title":"Dystopia Story",
+        "Pic":"../assets/Dystopia/Distopia5.jpg",
+        "Description":"Story of people who never give up"
+    },
+    {
+        "id":"7",
+        "title":"Dystopia Story",
+        "Pic":"../assets/image/chatbot.svg",
+        "Description":"Anoter book"
+    }
+]

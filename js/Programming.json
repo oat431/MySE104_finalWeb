@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci.jpg",
+        "Description":"I still miss the time that I got the POSN camp even I can't go further but that time make me love the computer science I still love to read the technology news and computer science research"
+    },
+    {
+        "id":"2",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci6.png",
+        "Description":"Try to explain how to write the code explain how to create the algorithm is in front of people that interest in programming I make the talk during the summer of the 2019 and if I can do it again I will"
+    },
+    {
+        "id":"3",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci2.jpg",
+        "Description":"School competition"
+    },
+    {
+        "id":"4",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci3.jpg",
+        "Description":"The coding gang"
+    },
+    {
+        "id":"5",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci4.jpg",
+        "Description":"SIT code competition"
+    },
+    {
+        "id":"6",
+        "title":"Programming",
+        "Pic":"../assets/Programming/Comsci5.png",
+        "Description":"techjam competition"
+    },
+    {
+        "id":"7",
+        "title":"Programming",
+        "Pic":"../assets/image/coding.svg",
+        "Description":"Comsci actitvity"
+    }
+]

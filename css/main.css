@@ -1,0 +1,254 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: antiquewhite;
+}
+.camt{
+    width: 6rem;
+    height: 2.5rem;
+}
+
+.cmu{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.logo{
+    width: 6rem;
+    height: 6rem;
+}
+
+.bio{
+    
+    margin-top: 1.25rem;
+    transition: font-size 1s,color .5s;
+}
+.bio>p{
+    font-size: 1.5rem;
+    transition: color 1s;
+}
+.bio:hover{
+    font-size: 3rem;
+    color:rgb(255, 71, 117);
+}
+.bio:hover p{
+    color:rgb(255, 121, 154);
+}
+.bioframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 1s,height 1s;
+    background-color: whitesmoke;
+}
+
+.preFrame{
+    width: 30rem;
+    height: 11rem;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 1s,height 1s;
+    background-color: whitesmoke;
+}
+.preFrame:hover{
+    width: 32rem;
+    height: 13rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+}
+
+.preLayout{
+    margin-top: 3.5rem;
+}
+
+.interestFrame{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 12px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: width 1s, height 1s;
+    background-color: whitesmoke;
+}
+
+.interestFrame:hover{
+    width: 17rem;
+    height: 17rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: aliceblue;
+}
+.interestFrame>h3{
+    margin-bottom: 2.5rem;
+}
+.interestLayout{
+    margin-top: 3.5rem;
+}
+
+.projectLayout{
+    margin: 2.5rem;
+}
+section{
+    margin: 1.5rem;
+}
+
+li.nav-item{
+    padding-right: 6rem;
+    padding-left: 6rem;
+}
+
+@media only screen and (max-width:769px){
+    #interestWidth2,#interestWidth{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:990px){
+    #preWidth2,#preWidth{
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width:576px){
+    .profile{
+        background-image: url("../assets/image/myPicture2.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 28rem;
+    }
+}
+
+
+@media only screen and (min-width:769px){
+    #interestNarrow{
+        display : none !important;
+    }
+    
+}
+@media only screen and (min-width:990px){
+    #preNar{
+        display:none !important;
+    }    
+}
+
+@media only screen and (min-width:576px){
+    .profile{
+        background-image: url("../assets/image/myPicture.jpg");
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 28rem;
+    }
+}
+.profile{
+    color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(0,0,0,.4);
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.profile:hover .overlay{
+    opacity: 1;
+}
+
+.interestPic{
+    color:white;
+    background-image: url("../assets/image/Interest.jpg");
+    background-repeat: no-repeat;
+    height: 31rem;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-image .5s;
+}
+
+.interestPic:hover .overlay{
+    opacity: 1;
+}
+
+.prePic{
+    color: white;
+    background-image: url("../assets/image/Preference.jpg");
+    background-repeat: no-repeat;
+    height: 31rem;
+    background-position: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: background-image .5s;
+}
+
+.prePic:hover .overlay{
+    opacity: 1;
+    /* background-image: url('../image/preFruit.jpg'); */
+}
+
+section#project{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("../assets/image/Project.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    color:rgb(255, 255, 255); 
+}
+p{
+    font-size: 1rem;
+    opacity: 75%;
+}
+
+.facebook{
+    transition: filter 1s;
+}
+.bio .facebook:hover{
+    filter: brightness(75%);
+}
+.line{
+    transition: filter 1s;
+}
+.bio .line:hover{
+    filter: brightness(75%);
+}
+.email{
+    transition: filter 1s;
+}
+.bio .email:hover{
+    filter: brightness(75%);
+}
+.tel{
+    transition: filter 1s;
+}
+.bio .tel:hover{
+    filter: brightness(75%);
+}
+
+hr{
+    height: .5rem;
+}
+
+i.liPic{
+    background-image: url("http://icons.iconarchive.com/icons/inipagi/job-seeker/32/cv-icon.png");
+}
+h3+img{
+    display: block;
+    margin-bottom: 1rem;
+    
+}
+div h3{
+    margin-bottom: 0px!important;
+}
+
+.preFrame p{
+    font-size: 1.25rem;
+}
